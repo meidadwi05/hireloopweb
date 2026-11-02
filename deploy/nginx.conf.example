@@ -1,0 +1,17 @@
+server {
+    listen 80;
+    server_name hireloop.example.com;
+    root /var/www/hireloop/dist;
+    index index.html;
+
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+    location /untuk-perusahaan/ {
+        try_files $uri $uri/ =404;
+    }
+    location /assets/ {
+        try_files $uri =404;
+    }
+}
+# Ganti domain/root dan aktifkan HTTPS sesuai konfigurasi server Anda.

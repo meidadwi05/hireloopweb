@@ -1,0 +1,34 @@
+{
+  "hero": {
+    "file": "interview-hero.webp",
+    "source": "AI-generated with built-in image generation",
+    "purpose": "Illustrative recruitment interview; does not depict actual HireLoop employees or customers"
+  },
+  "fonts": [
+    {
+      "family": "Rethink Sans",
+      "weight": 400,
+      "source": "Google Fonts / fonts.gstatic.com"
+    },
+    {
+      "family": "DM Sans",
+      "weight": 400,
+      "source": "Google Fonts / fonts.gstatic.com"
+    }
+  ],
+  "footer": {
+    "file": "meeting-footer.webp",
+    "source": "AI-generated with built-in image generation",
+    "purpose": "Illustrative calm office meeting; does not depict actual HireLoop employees or customers"
+  },
+  "journey": {
+    "file": "handshake-journey.webp",
+    "source": "AI-generated with built-in image generation",
+    "purpose": "Illustrative successful professional handshake; does not depict actual HireLoop employees or customers"
+  },
+  "process_team": {
+    "file": "professional-team.webp",
+    "source": "AI-generated with built-in image generation",
+    "purpose": "Illustrative group of five professionals, not actual HireLoop employees or customers"
+  }
+}
