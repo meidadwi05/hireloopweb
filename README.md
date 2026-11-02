@@ -1,6 +1,10 @@
 # HireLoop React — source lengkap
 
+<<<<<<< HEAD
 Ekspor desain HireLoop B2C terbaru tanggal 2 November 2026. React + Vite, JSX per section, CSS responsif, seluruh gambar WebP, logo, font lokal, QR ilustrasi, serta animasi/transisi disertakan. Tidak membutuhkan akun Sites, koneksi ChatGPT, API key, atau layanan gambar eksternal untuk menjalankan frontend.
+=======
+Ekspor desain HireLoop B2C terbaru tanggal 23 Oktober 2026. React + Vite, JSX per section, CSS responsif, seluruh gambar WebP, logo, font lokal, QR ilustrasi, serta animasi/transisi disertakan. Tidak membutuhkan akun Sites, koneksi ChatGPT, API key, atau layanan gambar eksternal untuk menjalankan frontend.
+>>>>>>> 27583fe1315f2e3471aff20abfbebf210da02639
 
 ## Jalankan lokal
 
@@ -23,7 +27,11 @@ npm run preview
 
 Upload **isi folder dist/** ke document root domain/subdomain, misalnya public_html/. File ZIP ini juga menyertakan dist/ hasil build yang sudah diuji sehingga dapat langsung diunggah. Node.js hanya diperlukan pada saat development/build; server produksi cukup melayani file statis melalui HTTPS.
 
+<<<<<<< HEAD
 Paket menggunakan path dari root domain (/assets/, /interactions.js, dan /animations.js). Pasang pada root domain/subdomain. Pemasangan di subfolder memerlukan perubahan seluruh URL absolut, konfigurasi base Vite, serta tautan aset dan script; mengubah base saja belum cukup.
+=======
+Paket menggunakan path dari root domain (/assets/, /interactions.js, dan /untuk-perusahaan/). Pasang pada root domain/subdomain. Pemasangan di subfolder memerlukan perubahan seluruh URL absolut, konfigurasi base Vite, serta tautan aset dan script; mengubah base saja belum cukup.
+>>>>>>> 27583fe1315f2e3471aff20abfbebf210da02639
 
 ## Struktur dan titik edit
 
@@ -34,6 +42,10 @@ Paket menggunakan path dari root domain (/assets/, /interactions.js, dan /animat
 - public/animations.js: pengendali animasi scroll/IntersectionObserver/rAF. Dimuat setelah DOM React selesai dibuat.
 - public/interactions.js: data lowongan contoh, pencarian/filter, modal detail, share, modal daftar/masuk dan panduan.
 - public/assets/: semua foto, logo, font WOFF2, dan credits.json.
+<<<<<<< HEAD
+=======
+- public/untuk-perusahaan/index.html: halaman B2B bawaan dalam HTML yang dipertahankan apa adanya agar tautan tetap berjalan. B2C sudah berupa JSX React.
+>>>>>>> 27583fe1315f2e3471aff20abfbebf210da02639
 - dist/: hasil build siap upload.
 - deploy/: contoh konfigurasi server.
 
@@ -53,16 +65,23 @@ Animasi dan interaksi lama dipertahankan sebagai pengendali DOM agar gerakan ide
 
 Ini frontend desain, bukan sistem rekrutmen production. Data lowongan masih contoh. Form daftar/masuk, OTP, pengiriman lamaran, generate CV, kontrak, notifikasi, dan data kandidat belum dihubungkan ke backend. Modal menjelaskan status demo tersebut. Ganti data/aksi pada public/interactions.js atau pindahkan ke service dan state React saat integrasi API. Jangan menaruh secret/service-role key di browser.
 
+<<<<<<< HEAD
 QR dan panduan PWA masih placeholder dari preview; ganti dengan QR menuju URL aplikasi resmi milikmu. Teks preview, dokumen legal placeholder, copyright,  perlu disesuaikan sebelum rilis publik. Ini bukan implementasi service worker/PWA siap instal.
+=======
+QR dan panduan PWA masih placeholder dari preview; ganti dengan QR menuju URL aplikasi resmi milikmu. Teks preview, dokumen legal placeholder, copyright, serta kontak B2B perlu disesuaikan sebelum rilis publik. Ini bukan implementasi service worker/PWA siap instal.
+>>>>>>> 27583fe1315f2e3471aff20abfbebf210da02639
 
 Foto yang dibuat AI bersifat ilustratif dan tidak menampilkan karyawan/pelanggan HireLoop yang sebenarnya. Lihat public/assets/credits.json. Font Rethink Sans dan DM Sans disertakan lokal; keduanya berlisensi SIL Open Font License (lihat tautan sumber pada ASSETS.md).
 
 ## Validasi
 
 npm ci dan npm run build berhasil. Hasil build diperiksa di browser: aset/font dimuat, enam lowongan tampil, section sticky aktif, background profesional terpasang, modal daftar terbuka. Hosting asal tidak diubah oleh proses ekspor ini.
+<<<<<<< HEAD
 
 ## Revisi terbaru
 
 Wording landing page diperbarui. Bagian perusahaan dan halaman B2B dihapus. Kolom pencarian, pilihan lokasi, tombol pencarian, serta empat poin di bawah hero dihapus. Filter industri dan daftar lowongan dipertahankan. Wordmark HireLoop di footer bergerak tanpa anak panah.
 
 Ekstrak ZIP lalu buka terminal di folder yang berisi package.json sebelum menjalankan npm ci.
+=======
+>>>>>>> 27583fe1315f2e3471aff20abfbebf210da02639
